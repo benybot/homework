@@ -41,8 +41,7 @@
 						'lname' => ucfirst($user_data['lname']),
 						'dob' => ucfirst($user_data['dob']),
 						'quotes' => ucfirst($user_data['quotes']),
-						'logged_in' => true,
-						'login_time' => date('Y-m-d H:i:s')
+						'logged_in' => true
 					);
 										
 					$this->session->set_userdata($user_data);
